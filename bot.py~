@@ -365,12 +365,6 @@ class MonitorTicker(object):
         self.allcoins()
 
     def allcoins(self):
-        self.monitorLog("Hey guys Ipozi/Nizel here!",
-                        "If you're enjoying this bot, have questions/comments/concerns, I'd love to hear them:",
-                        "\n",
-                        "ipozi@tormail.org",
-                        "\n",
-                        "LTC: LQfG9Mq5qrfMtgb8n8nKnh2ooWw2WHDHts"
         while True:
             tradeAbility = self.checkTradeAbility()
             if tradeAbility == True:
